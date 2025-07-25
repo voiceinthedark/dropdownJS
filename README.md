@@ -1,22 +1,7 @@
-# Todoer (A todoist clone)
+# Dynamic dropdown menu with vanilla javascript
 
 ## About
 
-A todoist clone.
+A dropdown menu using only vanilla javascript.
 
-## Features
 
-- Add tasks with title, description, due date, and priority
-- Mark tasks as completed or uncompleted
-- Delete tasks and projects
-- Filter tasks by project
-
-## Roadmap
-
-- [x] Show completed and uncompleted tasks
-- [ ] Sort tasks by dates
-- [ ] Save and load tasks into and from file backup
-
-## Assets
-
-- [font awesome](https://fontawesome.com/)
