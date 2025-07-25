@@ -3,5 +3,3 @@
 ## About
 
 A dropdown menu using only vanilla javascript.
-
-

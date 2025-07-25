@@ -18,8 +18,10 @@
 @font-face {
   font-family: "Montserrat";
   src:
-    url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype"),
-    url("../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+    url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+      format("truetype"),
+    url("../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+      format("truetype");
   font-weight: 100 900;
   font-style: normal, italic;
 }
@@ -63,21 +65,21 @@ ul {
 }
 
 .container {
-  &>.dropmenu {
+  & > .dropmenu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
 
-    &>div{
+    & > div {
       display: flex;
       flex-direction: column;
       width: fit-content;
       min-width: 100px;
     }
 
-    &>div>span {
+    & > div > span {
       font-size: 130%;
       padding-bottom: 5px;
       border: 1px solid black;
@@ -85,12 +87,12 @@ ul {
       text-align: center;
     }
 
-    &>div>ul {
+    & > div > ul {
       display: flex;
       flex-direction: column;
     }
 
-    &>div>ul>li {
+    & > div > ul > li {
       padding-top: 5px;
       padding-bottom: 5px;
       display: flex;
@@ -100,5 +102,4 @@ ul {
       border-color: black;
     }
   }
-
 }
